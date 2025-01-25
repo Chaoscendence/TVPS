@@ -11,19 +11,3 @@ Though deep learning has shown great potential in the diagnosis and management o
 ## 🔥 Logs
 
 - [2025.01.25] The network architectures used in TVPS are available now. And more detailed supplementary information is available, including a detailed derivation of the Evidence Lower Bound (ELBO) and clinical diagnostic opinions from human ophthalmologists on the generated samples.
-
-## 📊 Results
-
-*Here, we provide a brief description of the performance achieved by TVPS.*
-
-**Advanced classification performance:**
-
-We employed two public fundus image datasets to evaluate the proposed TVPS, namely Fundus1000 and Aptos2019. Here is the performance of TVPS on two datasets:
-
-![fundus](./asserts/fundus.png)
-
-![APTOS](./asserts/APTOS.png)
-
-In addition, clinical diagnostic opinions from human ophthalmologists demonstrated that TVPS was able to generate more pronounced clinical features of the disease.
-
-![generated_samples_with_opinion](./asserts/generated_samples_with_opinion.png)
